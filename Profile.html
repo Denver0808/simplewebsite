@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<title>MY RESUME</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+<body>
+
+	<section class="sub-header">
+		<nav>
+			<a href="Index.html"><img src="Images/LOGO.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="Index.html">HOME</a></li>
+					<li><a href="Profile.html">PROFILE</a></li>
+					<li><a href="Education.html">EDUCATION</a></li>
+					<li><a href="Blog.html">BLOG</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+		<h1>PROFILE</h1>
+	</section>
+
+	<!-----------------------------------------------------------About us Content----------------------------------------------------------------------------->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>This is my First Website</h1>
+			<p>Since I was a child, I have always wondered how computers work. When I entered high school, my passion for computers began. I am a fast learner when it comes to technology because of my passion for it. When college came, I learned a lot more and it wasn't easy for me. Now that I have finished my studies, I can use what I have learned. With the help of my knowledge of HTML, CSS, JS, I was able to create a responsive web site that will help me to become such an employee. This is a website where my skills and information are presented as proof that I am qualified to be a Front end Developer.</p>
+			<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="Images/code.jpg">
+		</div>
+	</div>
+</section>
+
+	
+<section class="footer">
+	<h4>About Us</h4>
+	<p>If you have any questions, you can contact me on my social media accounts below.</p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made by<i class="fa fa-heart-o"></i>Denver Gordula</p>
+</section>
+
+
+<!----------------------------------------------------------JavaScript For Menu--------------------------------------------------------------------------------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+
+		}
+	</script>
+</body>
+</html>
